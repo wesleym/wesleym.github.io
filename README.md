@@ -1,1 +1,1 @@
-My résumé.
+My rÃ©sumÃ©.
