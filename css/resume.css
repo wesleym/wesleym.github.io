@@ -1,0 +1,18 @@
+h2 {
+  background-image: url("img/line.png");
+  background-repeat: repeat-x;
+  background-position: center right;
+}
+
+h2 .text-content {
+  background-color: white;
+  padding-right: 1ex;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+.title {
+  font-style: italic;
+}
