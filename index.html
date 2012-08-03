@@ -152,15 +152,11 @@
 <!-- Code - Rareshare -->
 <div class=span5>
 <h3>Rareshare</h3>
-<p>This is a BitTorrent-like system written as the term project for a Computer Networking course at UBC. The system distributes a file across a peer-to-peer network, but uses Reed-Solomon coding to generate check segments that can act as wildcard segments, able to correct for any given segment of that size that is no longer available from any peer on the network.</p>
 
-<hr>
+<p>This is a BitTorrent-like peer-to-peer filesharing system that is more robust to cases where sources for a piece of a file are scarce or missing. We use the Parity Volume Set format – popularised in Usenet binary newsgroups – to generate check segments that can act as wildcards. These can correct for any missing segment of that size that is no longer available from any peer on the network. Once a full set of source files is obtained, any check segments not downloaded can be generated locally. Best of all, this system could be overlaid over existing protocols, such as BitTorrent.</p>
 
-<p>Fall 2008</p>
+<p>I worked on a team of three students to develop Rareshare as the Distributed Systems (CPSC 416) term project for fall 2008.</p>
 
-<p>RareShare is a system designed to augment existing BitTorrent techniques in cases when sources for a piece of a file are scarce or missing. RareShare uses the Parity Volume Set format popularized for use with Usenet binary newsgroups. It was developed in a team of three as the term project for a distributed systems course (CPSC 416 UBC).</p>
-
-<p>A sharing technique is designed such that each peer need only download any set of pieces whose size totals that of the original set of files to recover those original files. Best of all, this technique is backwards-compatible with conventional BitTorrent protocols.</p>
 </div>
 </div>
 </div>
