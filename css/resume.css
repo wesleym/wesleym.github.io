@@ -16,6 +16,7 @@ section {
   z-index: -1;
 }
 
+/* Unround top-left and top-right corners of hero unit */
 #header {
   -webkit-border-top-left-radius: 0;
   -moz-border-top-left-radius: 0;
