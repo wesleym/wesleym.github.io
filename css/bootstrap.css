@@ -4713,7 +4713,8 @@ a.badge:hover {
 .hero-unit {
   padding: 60px;
   margin-bottom: 30px;
-  background-color: #c5dcdf;
+  background-color: #f6fafa;
+  border: thin solid #3e6267;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -4722,7 +4723,7 @@ a.badge:hover {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
-  color: #a88463;
+  color: #685a4e;
   letter-spacing: -1px;
 }
 .hero-unit p {
