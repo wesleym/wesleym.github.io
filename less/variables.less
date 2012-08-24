@@ -29,16 +29,31 @@
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
+// Primary color
+// -------------------------
+@primary:               #a88463;
+@primaryDark:           #685a4e;
+@primaryDarker:         #4f2c0b;
+@primaryLight:          #edceb2;
+@primaryLighter:        #edded1;
+
+// Complementary color
+// -------------------------
+@complementary:         #3e6267;
+@complementaryDark:     #303e40;
+@complementaryDarker:   #072830;
+@complementaryLight:    #a9d9df;
+@complementaryLighter:  #c5dcdf;
 
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @grayDark;
+@textColor:             @complementaryDarker;
 
 
 // Links
 // -------------------------
-@linkColor:             #08c;
+@linkColor:             @primary;
 @linkColorHover:        darken(@linkColor, 15%);
 
 
@@ -144,7 +159,7 @@
 
 // Hr border color
 // -------------------------
-@hrBorder:                @grayLight;
+@hrBorder:                @primary;
 
 
 // Wells
@@ -199,9 +214,9 @@
 
 // Hero unit
 // -------------------------
-@heroUnitBackground:              @grayLighter;
-@heroUnitHeadingColor:            inherit;
-@heroUnitLeadColor:               inherit;
+@heroUnitBackground:              @complementaryLighter;
+@heroUnitHeadingColor:            @primary;
+@heroUnitLeadColor:               @primaryDark;
 
 
 // Form states and alerts
