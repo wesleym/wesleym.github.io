@@ -16,6 +16,14 @@ section {
   z-index: -1;
 }
 
+@media (max-width: 767px) {
+  .section-divider {
+    width: auto;
+    left: 20px;
+    right: 20px;
+  }
+}
+
 /* Unround top-left and top-right corners of hero unit */
 #header {
   -webkit-border-top-left-radius: 0;
