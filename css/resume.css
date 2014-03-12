@@ -1,4 +1,7 @@
-/* Unround top-left and top-right corners of hero unit */
+body {
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
+}
+
 h2 .text-content {
   background-color: #ffffff;
   padding-right: 1ex;
