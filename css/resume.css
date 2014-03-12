@@ -2,26 +2,11 @@ body {
   font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
 }
 
-h2 .text-content {
-  background-color: #ffffff;
-  padding-right: 1ex;
-}
 section {
   margin-bottom: 1em;
 }
 .title {
   font-style: italic;
-}
-.section-divider {
-  position: absolute;
-  z-index: -1;
-}
-@media (max-width: 767px) {
-  .section-divider {
-    width: auto;
-    left: 20px;
-    right: 20px;
-  }
 }
 
 /* Unround top-left and top-right corners of hero unit */
