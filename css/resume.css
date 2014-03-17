@@ -9,9 +9,6 @@ h2:first-child, h3:first-child {
 section {
   margin-bottom: 1em;
 }
-.title {
-  font-style: italic;
-}
 
 /* Unround top-left and top-right corners of hero unit */
 #header {
