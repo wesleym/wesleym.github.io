@@ -1,290 +1,152 @@
 <!DOCTYPE html>
 
-<html lang="en-CA">
-
-<meta charset=utf-8>
-<meta http-equiv=X-UA-Compatible content="IE=edge">
-<meta name=viewport content="width=device-width, initial-scale=1">
-
+<meta charset=UTF-8>
 <title>Wesley Moy</title>
 
-<!-- Bootstrap -->
-<link rel=stylesheet href=//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css>
 <link rel=stylesheet href=css/resume.css>
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src=https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js></script>
-<script src=https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js></script>
-<![endif]-->
+<div class=page>
+<header>
+<hgroup>
+<h1>Wesley Moy</h1>
+<h2>software engineer</h2>
+</hgroup>
+</header>
 
-<!-- Header -->
 <div class=container>
-<h1 class=col-md-12>Wesley Moy <small>Software Engineer</small></h1>
+<h2>Experience</h2>
+
+<p>Software engineer since 2009. Full work history on <a href=https://www.linkedin.com/in/wesleymoy/>LinkedIn</a>.
+
+<div class=job>
+<hgroup>
+<h3>Altered Labs AI</h3>
+<div class=titledate>cofounder, engineer, researcher, 2022–2024</div>
+</hgroup>
+
+<div class=horizontaltiles>
+<div>
+<h4>The Altered Labs Stack</h4>
+
+<p>The Altered Labs Stack runs modern, Transformer-based AI tasks quickly and efficiently.
+
+<p>I took part in design and review of the serverless, queue-based architecture. I wrote much of the code for the containerized AI and video-processing workers and their interactions with accelerator cards (CUDA, Inferentia, and Neural Engine). The resulting stack scales from 0 to full utilization with nearly linear cost and handles continuous max load gracefully.
 </div>
 
-<!-- Work section -->
-<section class=container>
-<h2 class=col-md-2>Work</h2>
-<div class="row col-md-10">
+<div>
+<h4><a href=https://altersnap.app/>Altersnap</a></h4>
+
+<p>Altersnap is the showcase app for the Altered Labs Stack. Take a selfie and render yourself through parallel dimensions.
   
-<!-- Work - Altered Labs -->
-<div class=col-md-10>
-<h3><a href=https://alteredlabs.ai/>Altered Labs AI</a></h3>
-<p>2022–2024
+<p>I designed, architected, and implemented the Altersnap app in Flutter, Android Jetpack, and SwiftUI. The app integrates with in-app purchase, home screen widgets, camera, media sharing, and other platform features.
+</div>
+</div><!-- .horizontaltiles -->
 
-<p>Co-founder, engineer.
+<div class=chiplist>
+<strong>AI techniques:</strong>
+
+<ul class=chips>
+<li>Image generative AI
+<li><a href=https://arxiv.org/abs/2302.05543>Control adapters</a>
+<li>Fine-tuning <a href=https://arxiv.org/abs/2106.09685>LoRA</a>
+<li><a href=https://arxiv.org/abs/2108.01073>SDEdit</a>-derived techniques
+<li><a href=https://arxiv.org/abs/2201.09865>RePaint</a>-derived techniques
+</ul>
+</div><!-- .chiplist -->
+
+<p><strong>Research I contributed (proprietary):</strong>
 
 <ul>
-<li>Transformer models, image generative AI, including control adapters, redistillations
-<li>AWS: serverless (SAM), queue-based architecture
-<li>Flutter, including productionization and automated testing
+<li>Solving the AI face problem: grounding recognizably correct faces in AI-generated images.
+<li>Combining latent projection and ground truth sampling to guide coherency of lighting colour and direction.
 </ul>
+</div><!-- .job -->
 
-<p>Try it out yourself with our mobile app Altersnap. We've solved the AI face
-problem: generate AI profile photos that are recognizably you, not a long lost
-cousin. Get lots for free, more with in-app purchase.
+<div class=job>
+<hgroup>
+<h3>Google</h3>
+<div class=titledate>software engineer, 2012–2014, 2017–2021</div>
+</hgroup>
+
+<div class=horizontaltiles>
+<div>
+<h4>Google Cloud Console</h4>
+
+<p>Full-stack web app engineer on the developer console for Google Cloud Platform.
 </div>
 
-<!-- Work - Google -->
-<div class=col-md-10>
-<h3><a href=https://about.google>Google</a></h3>
-<p>2017–2021
+<div>
+<h4>Google+/Google Currents</h4>
 
-<p>Android engineer for <a href=https://gsuite.google.com/products/currents/>Google Currents</a>.
+<p>Android engineer on the Google+/Currents app and integrations in Google Play Services.
 
-<p>Backend engineer in Corporate Engineering in accounts and internal risk.</p>
-
-<ul>
-<li>Android Jetpack
-<li>Google Material with the Design Support Library
-<li>Dagger with internal Hilt-like system
-<li>Internal microservice framework
-<li>Internal orchestration framework
-</ul>
+<p>I was on Google+ consumer turndown team.
 </div>
 
-<!-- Work - Nextdoor -->
-<div class=col-md-10>
-<h3><a href=https://nextdoor.com/about/>Nextdoor</a></h3>
-<p>2014–2017
+<div>
+<h4>Accounts and internal risk</h4>
 
-<p>Front-end engineer for Nextdoor.com, the Nextdoor Agency Platform, and internal tools.
-<p>Android core engineer and React Native platform engineer.
-
-<ul>
-<li>Functional reactive programming: ReactiveX, RxJava
-<li>Inversion of control: Dagger 2
-<li>React Native
-<li>Gradle build system (build system migration from Ant), project modularization
-<li>JSON (shared preference) and SQLite based persistence
-<li>Styles/themes
-</ul>
-
-<ul>
-<li>Django
-<li>jQuery, Backbone.js
-</ul>
+<p>Full-stack web app engineer working on identity verification for Googlers.
 </div>
 
-<!-- Work - Google -->
-<div class=col-md-10>
-<h3><a href=http://www.google.com/about/>Google</a></h3>
-<p>2012–2014
+</div><!-- .horizontaltiles -->
+</div><!-- .job -->
 
-<p>Front-end engineer for <a href=https://console.developers.google.com/>Google Developer Console</a>. The Developer Console replaces the APIs Console and the App Engine admin console as the single interface to all of Google's developer offerings.
+<div class=job>
+<hgroup>
+<h3>Nextdoor</h3>
+<div class=titledate>software engineer, 2014–2017</div>
+</hgroup>
 
-<p>Software engineer for the <a href=https://developers.google.com/apis-explorer/>APIs Explorer</a>. The APIs Explorer is an entirely browser-based web app that uses Google's Discovery API to provide a playground for all of Google's APIs.
+<div class=horizontaltiles>
+<div>
+<h4>Nextdoor app</h4>
 
-<ul>
-<li>App Engine: Java, Go
-<li>Closure Tools: Closure Templates, Closure Library, and Closure Compiler
-<li>AngularJS
-<li>GWT
-<li>Perforce-like SCM
-<li><a href=http://facebook.github.io/buck/>Buck</a>-like build system
-</ul>
-</a>.
+<p>Full-stack mobile engineer for new features, app infrastructure, bug fixes, and build automation for the Nextdoor Android and iOS apps.
 </div>
 
-<!-- Work - Sencha -->
-<div class=col-md-5>
-<h3><a href=http://www.sencha.com/company/>Sencha</a></h3>
-<p>2011–2012
+<div>
+<h4>City Platform</h4>
 
-<p>Engineer and Support Engineer on <a href="http://www.sencha.com/products/gxt">Sencha GXT</a> (formerly Ext GWT). GXT is a user interface toolkit built on <a href="http://www.gwtproject.org/">GWT</a> (formerly Google Web Toolkit) that provides a variety of user interface widgets and data presentation elements not provided by GWT.
+<p>Full-stack web app engineer for the Nextdoor City Platform, a way for public agencies to provide timely and local information to neighbours.
+</div>
+</div><!-- .horizontaltiles -->
+</div><!-- .job -->
+</div><!-- .container -->
 
-<p>Engineer on the Java port of the <a href="http://www.att.com/gen/press-room?cdvn=news&amp;newsarticleid=33666&amp;pid=22234">AT&amp;T API Platform</a>, a Servlet-based translation of a Ruby on Rails service.
+<div class=container>
+<h2>Projects</h2>
 
-<ul>
-<li>GWT, both 1.x and 2.0</li>
-<li>Sencha GXT 2, GXT 3</li>
-<li>Ant, Maven</li>
-<li>Jenkins</li>
-</ul>
+<div class=horizontaltiles>
+<div>
+<h4><a href=https://github.com/wesleym/friendlyscorer>Friendly Scorer</a></h4>
+
+<p>My latest project. A scoreboard for a round of <a href=https://www.theincomparable.com/gameshow/friendly/>Friendly Competition</a>.
 </div>
 
-<!-- Work - Citrix -->
-<div class=col-md-5>
-<h3><a href=http://www.citrix.com/about.html>Citrix Systems</a></h3>
-
-<p>2009–2011
-
-<p>User Interface Engineer, <a href=http://www.citrix.com/English/ps2/products/product.asp?contentID=2300325>Synchronizer for XenClient</a>, an administrative management interface to XenClient.
-
-<h4>Technologies used</h4>
-<ul>
-<li>Sencha GXT 2 (formerly Ext GWT 2)</li>
-<li>GWT (formerly Google Web Toolkit</li>
-<li>CherryPy</li>
-<li>SQLAlchemy</li>
-<li>Adobe Flex</li>
-<li>Flare visualization library for Adobe Flex</li>
-</ul>
-</div>
-</div>
-</section>
-
-<!-- School section -->
-<section class=container>
-<h2 class=col-md-2>School</h2>
-<div class=col-md-10>
-
-<!-- School - UBC -->
-<h3>University of British Columbia</h3>
-
-<p>2004–2009: B.Sc. in Computer Science; graduation with distinction
-
-<p>Specialisation in human-computer interaction, including the principles of HCI, techniques in interface prototyping, and user research and data collection.
-</div>
-</section>
-
-<!-- Code section -->
-<section class=container>
-<h2 class=col-md-2>Projects</h2>
-<div class="col-md-10 row">
-
-<!-- Code - Conapp -->
-<div class=col-md-10>
-<h3>Conapp</h3>
-
-<p><i>Currently undergoing maintenance</i>
-
-<p>Conapp helps people at conferences find each other. In indoor venues and in close quarters, traditional checkin and geolocation apps don't represent fine enough detail for team members to find each other.
-
-<p>By letting users enter their location as free text, updates can be much more descriptive and can include locations not officially part of the venue. For example, a user can update their location as “Panel Room B”, “Hilton Lobby”, or even “Chipotle on 4th”.
-
-<p>Conapp is composed of a Go-based server backed by PostgreSQL, and frontends on web, iOS, and Android. iOS and Android users receive push notifications about location updates. (The backend also supports SMS through Twilio, but this option has been retired.)
+<div>
+<h4><a href=https://github.com/wesleym/wesleym.github.io>This resume</a></h4>
 </div>
 
-<!-- Code - Resume -->
-<div class=col-md-5>
-<h3>This resume</h3>
+<div>
+<h4>More</h4>
 
-<p>This resume is built on Bootstrap 3 and is available on GitHub.
+<p><a href=https://github.com/wesleym/>GitHub profile</a>
 </div>
+</div><!-- .horizontaltiles -->
+</div><!-- .container -->
 
-<!-- Code - Talking Stick -->
-<div class=col-md-5>
-<h3>Talking Stick</h3>
+<div class=horizontaltiles>
+<div class=container>
+<h2>Education</h2>
 
-<p>Talking stick is a Go App Engine app developed as a 20% project to facilitate the polite sharing of resources at Google. There are often shared test instances of apps like the Developer Console. By using Talking Stick, an engineer can claim this instance for exclusive use for a configurable amount of time. This triggers notifications via an internal chat system and email.
-</div>
+<p>BSc CS with distinction, University of British Columbia.
+</div><!-- .container -->
 
-<!-- Code - Jirabot -->
-<div class=col-md-5>
-<h3>JIRA Integrations for IRC</h3>
+<div class=container>
+<h2>Contact</h2>
 
-<p>This IRC bot watches conversation go by in channel and expands JIRA tickets for configured projects when they are mentioned.
-
-<p>This bot was written in Python. It uses suds to access resources from the JIRA SOAP API.
-</div>
-
-<!-- Code - Hipcommit -->
-<div class=col-md-5>
-<h3>JIRA HipChat bot</h3>
-
-<p>This IRC bot polls JIRA Studio, later Atlassian OnDemand, for changes in issue status and for the status of automated builds.
-
-<p>This bot was written in Python. It originally used urllib2, then later requests, both to request resources from the JIRA REST API and to send messages using the HipChat API.
-</div>
-
-<!-- Code - JForum -->
-<div class=col-md-5>
-<h3>JForum</h3>
-
-<p>JForum is an implementation of a basic web forum in Java Servlets/JSP. We developed it in a four-person team as the final project for Advanced Software Engineering (CPSC 410 UBC) for the fall 2008 term.
-
-<p>The system uses MySQL, Java EE (Servlets, JSP, JDBC), and HTML, CSS, and JQuery on the frontend.
-
-<p>JForum is a basic forum with simple features, such as sections, topic threads, moderation, user authentication, and user profiles. JForum became an exercise in Java Servlet/JSP, HTML, CSS, and JavaScript, while simultaneously challenging the team to write best-practice code that handles requests in a straightforward MVC manner.
-
-<p>We developed under the waterfall model, including writing of specifications and user testing (grading).
-</div>
-
-<!-- Code - Rareshare -->
-<div class=col-md-5>
-<h3>Rareshare</h3>
-
-<p>This is a BitTorrent-like peer-to-peer filesharing system that is more robust to cases where sources for a piece of a file are scarce or missing. We use the Parity Volume Set format – popularised in Usenet binary newsgroups – to generate check segments that can act as wildcards. These can correct for any missing segment of that size that is no longer available from any peer on the network. Once a full set of source files is obtained, any check segments not downloaded can be generated locally. Best of all, this system could be overlaid over existing protocols, such as BitTorrent.</p>
-
-<p>I worked on a team of three students to develop Rareshare as the Distributed Systems (CPSC 416) term project for fall 2008.</p>
-
-</div>
-</div>
-
-<!-- Code - more -->
-<div class=row>
-<p class=col-md-12><a href="projects.html"><i class=icon-file></i> More code</a></p>
-</div>
-</section>
-
-<!-- Writing section -->
-<section class=container>
-<h2 class=col-md-2>Writing</h2>
-<p class=col-md-4><a href=http://stackoverflow.com/users/95869/wesley>My contributions on StackOverflow</a>
-<p class=col-md-4><a href=https://medium.com/@wesleym>My writing on Medium</a>
-</section>
-
-<!-- Reading section -->
-<section class=container>
-<h2 class=col-md-2>Reading</h2>
-<p class=col-md-2>Head First Design Patterns
-<p class=col-md-2>AngularJS (O'Reilly)
-<p class=col-md-2><a href=http://news.ycombinator.com/>Hacker News</a>
-</section>
-
-<!-- Languages section -->
-<section class=container>
-<h2 class=col-md-2>Languages</h2>
-<p class=col-md-5>Comfortable in Java, Python, Go, JavaScript
-<p class=col-md-5>Have tried Objective C, Haskell, Prolog
-</section>
-
-<!-- Frameworks section -->
-<section class=container>
-<h2 class=col-md-2>Frameworks</h2>
-<p class=col-md-5>Comfortable using GWT, Sencha GXT, servlets, Swing, Django, Jinja 2, Flask, AngularJS, Closure Library, Bootstrap
-<p class=col-md-5>Have some experience with SQLAlchemy, JDBC
-</section>
-
-<!-- Contact section -->
-<section class=container>
-<h2 class=col-md-2>Contact</h2>
-
-<p class=col-md-2>Ohio, United States of America
-
-<p class=col-md-2><a href="http://wesleymoy.com/">wesleymoy.com</a>
-
-<p class=col-md-2><a rel=me href=https://mastodon.social/@wesleymoy>@wesleymoy@mastodon.social</a>
-
-<p class=col-md-2><a href="mailto:wesley.moy@gmail.com">wesley&#8203;.moy&#8203;@gmail&#8203;.com</a>
-
-<p class=col-md-2><a href="https://www.linkedin.com/in/wesleymoy/">LinkedIn</a>
-</section>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src=//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js></script>
-</html>
+<p><a href=mailto:wesley.moy@gmail.com>wesley.moy@gmail.com</a>
+</div><!-- .container -->
+</div><!-- .horizontaltiles -->
+</div><!-- .page -->
