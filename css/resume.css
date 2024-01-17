@@ -1,6 +1,5 @@
 body {
-  /* Neo-Grotesque from modernfontstacks.com */
-  /* font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif; */
+  /* Classical Humanist from modernfontstacks.com */
   font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 }
 
@@ -10,6 +9,10 @@ a {
 
 a:visited {
   color: maroon;
+}
+
+hgroup {
+  white-space: nowrap;
 }
 
 hgroup > h1, hgroup > h2, hgroup > h3, hgroup > .titledate {
