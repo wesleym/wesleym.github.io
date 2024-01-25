@@ -73,6 +73,10 @@ hgroup > h1::after, hgroup > h3::after {
   border-bottom: solid;
 }
 
+img {
+  float: right;
+}
+
 @media not print {
   body {
     margin-left: 10em;
