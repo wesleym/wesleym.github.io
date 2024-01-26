@@ -19,6 +19,10 @@ hgroup > h1, hgroup > h2, hgroup > h3, hgroup > .titledate {
   display: inline-block;
 }
 
+.job h3, #projects h2 {
+  margin-bottom: 0;
+}
+
 h1, h2, h3, h4, h5, h6, .titledate {
   /* Transitional from modernfontstacks.com */
   font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
@@ -66,7 +70,7 @@ hgroup > h1::after, hgroup > h3::after {
 
 @media not print {
   body {
-    margin-left: 7em;
+    margin-left: 10em;
     margin-right: 1em;  
   }
 
@@ -83,6 +87,10 @@ hgroup > h1::after, hgroup > h3::after {
     transform: rotate(180deg);
     writing-mode: vertical-rl;
     text-align: right;
+    width: 9em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   .footnotes {
