@@ -58,12 +58,10 @@ hgroup > h1::after, hgroup > h3::after {
 
 .job {
   border-top: solid;
-  border-bottom: solid;
-  break-inside: avoid;
 }
 
-.job + .job {
-  border-top: none;
+.job:last-child {
+  border-bottom: solid;
 }
 
 @media not print {
@@ -85,11 +83,31 @@ hgroup > h1::after, hgroup > h3::after {
     transform: rotate(180deg);
     writing-mode: vertical-rl;
     text-align: right;
-  }  
+  }
+
+  .footnotes {
+    display: none;
+  }
 }
 
 @media print {
   a::after {
     content: ' <' attr(href) '>';
+    font-size: smaller;
+    /* Industrial from modernfontstacks.com */
+    /* font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif; */
+  }
+
+  .chiplist a::after {
+    content: attr(data-footnote);
+    font-variant-position: super;
+  }
+
+  .footnotes > dt, .footnotes > dd {
+    display: inline-block;
+  }
+
+  .footnotes a::after {
+    content: none;
   }
 }
